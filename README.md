@@ -9,7 +9,7 @@ npm install
 ## extract private key from keystore file
 
 ```bash
-node extract-geth-private-key [ADDRESS] [PATH_KEYSTORE] [password]
+node extract-key [ADDRESS] [PATH_KEYSTORE] [password]
 ```
 
 * ADDRESS: The address you are interested in
@@ -19,5 +19,5 @@ node extract-geth-private-key [ADDRESS] [PATH_KEYSTORE] [password]
 EXAMPLES
 
 ```bash
-node extract-geth-private-key 4BF8E1E54E50E3b64E9c486D4230Ee4F9e7dE792 $HOME/.data_dir your_password
+node extract-key 4BF8E1E54E50E3b64E9c486D4230Ee4F9e7dE792 $HOME/.data_dir your_password
 ```
